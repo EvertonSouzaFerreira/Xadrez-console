@@ -9,7 +9,7 @@ namespace Xadrez_console
         {
             Tabuleiro tab = new Tabuleiro(8, 8);
 
-            Console.WriteLine("Posicao " + tab);
+            Tela.imprimirTabuleiro(tab);
         }
     }
 }
